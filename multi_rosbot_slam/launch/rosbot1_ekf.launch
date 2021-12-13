@@ -1,0 +1,13 @@
+<launch>
+
+  <node pkg="robot_localization" type="ekf_localization_node" name="rosbot_ekf" clear_params="true">
+    <rosparam command="load" file="$(find multi_rosbot_launch)/params/ekf1_params.yaml" />
+    <!-- <rosparam command="load" file="$(find multi_rosbot_launch)/params/ekf_params.yaml" /> -->
+
+    <!--  Placeholder for output topic remapping -->
+    <!-- <remap from="odometry/filtered" to="rosbot1/odom"/> -->
+    <remap from="odometry/filtered" to="odom"/>
+    <!-- <remap from="accel/filtered" to=""/> -->
+   
+  </node>
+</launch>

@@ -1,0 +1,24 @@
+<launch>
+    <arg name="rosbot_pro" default="false"/>
+    <arg name="mecanum" default="false"/>
+    
+    <include unless="$(arg rosbot_pro)" file="$(find rosbot_ekf)/launch/rosserial_bridge.launch"/>
+    
+    <include if="$(arg rosbot_pro)" file="$(find rosbot_ekf)/launch/rosserial_bridge.launch">
+        <arg name="serial_port" value="/dev/ttyS4"/>
+    </include>
+    
+    <node if="$(arg mecanum)" pkg="rosservice" type="rosservice" name="set_kinematics" args="call --wait /config 'SKIN' 'MEC'"/>
+
+    <!-- <include file="$(find rosbot_ekf)/launch/message_conversion.launch"/> -->
+
+    <node pkg="rosbot_ekf" type="msgs_conversion" name="msgs_conversion" respawn="true">
+        <param name="tf_prefix" value="rosbot1"/>
+    </node>
+
+    <include file="$(find multi_rosbot_launch)/launch/rosbot1_ekf.launch"/>
+    
+    <!-- <node pkg="tf" type="static_transform_publisher" name="imu_publisher" args="0 0 0.02 0 0 0 rosbot1/base_link rosbot1/imu_link 100" /> -->
+
+</launch>
+
