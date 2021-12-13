@@ -42,9 +42,6 @@ To Save a completed merged map:
     rosrun map_server map_saver map:=/merged_map -f <output_filename>
 ```
 
-Map building in action
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CRFiTtZXsXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # References:
 - [Husarion tutorials](https://husarion.com/tutorials/)
 - [Multi Robot SLAM](https://answers.ros.org/question/41433/multiple-robots-simulation-and-navigation/)
