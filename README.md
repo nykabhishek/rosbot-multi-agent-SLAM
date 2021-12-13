@@ -8,8 +8,8 @@ This package contains launch files and nodes needed for collaborative SLAM by mu
 
 ## Dependencies ##
 Environment
-- `Ubuntu 20.04`
-- `ROS Noetic`
+- `Ubuntu 18.04`
+- `ROS Melodic`
 
 ROS packages:
 - `husarion_ros`
@@ -45,6 +45,7 @@ To Save a completed merged map:
 # References:
 - [Husarion tutorials](https://husarion.com/tutorials/)
 - [Multi Robot SLAM](https://answers.ros.org/question/41433/multiple-robots-simulation-and-navigation/)
+- [Multiple ROSBot Simulation](https://github.com/adamkrawczyk/multiple_rosbots_simulation)
 
 
 
