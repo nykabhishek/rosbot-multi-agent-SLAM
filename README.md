@@ -7,8 +7,11 @@ A ROS package for multi agent SLAM using ROSBots by Husarion
 This package contains launch files and nodes needed for collaborative SLAM by multiple agents in an unknown environment using ROSBots by Husarion.
 
 ## Dependencies ##
-In order to use all these packages, you also need to install the following ROS 
-packages on each ROSBot:
+Environment
+- `Ubuntu 20.04`
+- `ROS Noetic`
+
+ROS packages:
 - `husarion_ros`
 - `rosbot_description`
 - `rosbot_ekf`
