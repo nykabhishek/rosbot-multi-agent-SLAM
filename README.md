@@ -60,6 +60,8 @@ To Save a completed merged map:
 Follow this [link](https://youtu.be/CRFiTtZXsXA) to see the visualization of `multirobot_map_merge` in action on `rviz`.
 
 
+![rqt_tf_tree](frames.png)
+
 # References:
 - [Husarion tutorials](https://husarion.com/tutorials/)
 - [Multi Robot SLAM](https://answers.ros.org/question/41433/multiple-robots-simulation-and-navigation/)
