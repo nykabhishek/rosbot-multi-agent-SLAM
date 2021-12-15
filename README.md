@@ -57,6 +57,9 @@ To Save a completed merged map:
     rosrun map_server map_saver map:=/merged_map -f <output_filename>
 ```
 
+Follow this [link](https://youtu.be/CRFiTtZXsXA) to see the visualization of `multirobot_map_merge` in action on `rviz`.
+
+
 # References:
 - [Husarion tutorials](https://husarion.com/tutorials/)
 - [Multi Robot SLAM](https://answers.ros.org/question/41433/multiple-robots-simulation-and-navigation/)
