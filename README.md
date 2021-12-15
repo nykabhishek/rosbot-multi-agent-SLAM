@@ -28,10 +28,18 @@ This can alternatively be aceived by [Husarnet](https://husarnet.com/) (a Peer-t
 ## Usage
 The central hub is used to SSH into each of the ROSbots to launch the required nodes.
 
-Run the following commands on each ROSBots:
+Run the following commands on each systems:
+On central hub computer:
+```
+    roscore
+```
 On ROSBot 1:
 ```
     roslaunch multi_rosbot_SLAM robo1_explore.launch 
+```
+On ROSBot 2:
+```
+    roslaunch multi_rosbot_SLAM robo2_explore.launch 
 ```
 
 Run Rviz on the central hub:
