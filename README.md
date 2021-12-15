@@ -59,7 +59,7 @@ To Save a completed merged map:
 
 Follow this [link](https://youtu.be/CRFiTtZXsXA) to see the visualization of `multirobot_map_merge` in action on `rviz`.
 
-
+Image of rqt_tf_tree:
 ![rqt_tf_tree](frames.png)
 
 # References:
