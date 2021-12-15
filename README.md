@@ -23,7 +23,7 @@ ROS packages:
 ## Setup ##
 A single central computer will act as a central hub (ROS master) and all the ROSBots will communicate with it by connecting to a common LAN network. Steps on setting up the communication network can be found [here](https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines).
 
-This can alternatively be acieved by [Husarnet](https://husarnet.com/) (a Peer-to-Peer VPN client) which uses Internet as the communication medium instead of the LAN network. 
+This can alternatively be aceived by [Husarnet](https://husarnet.com/) (a Peer-to-Peer VPN client) using Internet instead of the LAN network. 
 
 ## Usage
 The central hub is used to SSH into each of the ROSbots to launch the required nodes.
