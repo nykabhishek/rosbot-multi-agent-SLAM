@@ -27,8 +27,13 @@ This can alternatively be aceived by [Husarnet](https://husarnet.com/) (a Peer-t
 
 ## Usage
 The central hub is used to SSH into each of the ROSbots to launch the required nodes.
+```
+    ssh husarion@192.168.0.11
+    ssh husarion@192.168.0.22
+```
 
-Run the following commands on each systems:
+Run the following commands on respective systems:
+
 On central hub computer:
 ```
     roscore
