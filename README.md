@@ -2,7 +2,7 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/nykabhishek/rosbot-multi-agent-slam/badge)](https://www.codefactor.io/repository/github/nykabhishek/rosbot-multi-agent-slam)
 
-A ROS package for multi agent SLAM using ROSBots by Husarion
+A ROS package for multi agent SLAM using ROSBots 2.0 by Husarion.
 
 ![ROSBot2](rosbots.jpeg)
 
